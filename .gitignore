@@ -1,0 +1,70 @@
+# ── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+!.env.example
+service-account.json
+google-service-account.json
+*.key
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+*.jks
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+.pytest_cache/
+
+# ── Node / JS ────────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ── Expo / React Native ──────────────────────────────────────────────────────
+.expo/
+.metro-cache/
+.metro-health-check*
+dist/
+web-build/
+expo-env.d.ts
+
+# ── EAS ──────────────────────────────────────────────────────────────────────
+# Keep eas.json (it has no secrets), exclude local EAS caches
+.eas/
+
+# ── Build artifacts ──────────────────────────────────────────────────────────
+build/
+*.orig.*
+*.tsbuildinfo
+*.jsbundle
+
+# ── OS / IDE ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# ── Archives ─────────────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+-e 
+# Git config (never commit)
+.gitconfig

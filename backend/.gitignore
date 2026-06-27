@@ -1,0 +1,19 @@
+# Environment
+.env
+.env.*
+*.env
+!.env.example
+
+# Secrets
+service-account.json
+google-service-account.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
